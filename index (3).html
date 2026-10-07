@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Mohamed Mansour — Aluminum & Façade Systems Expert. Digital professional legacy and selected projects.">
+<title>Mohamed Mansour | Digital Legacy</title>
+<style>
+:root {
+  --navy:#071826; --navy2:#0d263a; --gold:#c8a15a; --cream:#f4efe6;
+  --ink:#17232d; --muted:#65727d; --line:#dfe5e9; --white:#fff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#f5f6f7;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+.hero{min-height:92vh;color:#fff;display:flex;align-items:end;position:relative;overflow:hidden;
+background:
+linear-gradient(180deg,rgba(3,12,19,.18),rgba(3,12,19,.95)),
+url("https://egyproperty-eg.com/wp-content/uploads/2022/08/2231942-fb88eo.jpg") center/cover}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,12,19,.86),rgba(3,12,19,.25) 70%,rgba(3,12,19,.6))}
+.hero-inner{position:relative;z-index:2;max-width:1080px;width:100%;margin:auto;padding:72px 24px 70px}
+.brand{letter-spacing:4px;font-size:13px;font-weight:700;color:#ead6aa}
+.kicker{margin-top:70px;color:#e7d0a0;font-size:13px;letter-spacing:3px;text-transform:uppercase}
+h1{font-size:clamp(44px,8vw,88px);line-height:.95;margin:12px 0}
+.hero-title{font-size:clamp(20px,3vw,30px);color:#dfe8ee;max-width:700px}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.badge{border:1px solid #7890a1;border-radius:999px;padding:9px 13px;font-size:13px;background:#07182680;backdrop-filter:blur(5px)}
+nav{position:absolute;top:0;left:0;right:0;z-index:5;max-width:1080px;margin:auto;padding:20px 24px;display:flex;justify-content:space-between}
+nav a{color:white;text-decoration:none;font-weight:700;font-size:13px}
+.wrap{max-width:1080px;margin:auto;padding:0 18px}
+.section{padding:78px 0}
+.section.dark{background:var(--navy);color:white}
+.section h2{font-size:clamp(28px,4vw,46px);margin:0 0 16px}
+.section-intro{max-width:760px;color:var(--muted);font-size:18px}
+.dark .section-intro{color:#c6d0d7}
+.profile{display:grid;grid-template-columns:1.2fr .8fr;gap:22px;align-items:stretch}
+.card{background:white;border-radius:22px;padding:30px;box-shadow:0 18px 50px #07182612}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+.stat{background:#f3f5f6;border-radius:16px;padding:20px}
+.stat b{font-size:30px;display:block;color:var(--navy)}
+.stat span{color:var(--muted);font-size:13px}
+.skill-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.skill{background:#edf1f4;border:1px solid #dde4e8;border-radius:999px;padding:10px 13px;font-size:14px}
+.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:30px}
+.project-card{background:white;border-radius:20px;overflow:hidden;box-shadow:0 15px 45px #07182612;border:1px solid #e5e9ec}
+.project-image-wrap{height:300px;position:relative;background:#ccd3d8;overflow:hidden}
+.project-image-wrap img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.92)}
+.project-overlay{position:absolute;inset:auto 0 0;padding:42px 18px 16px;background:linear-gradient(transparent,#071826d9);color:white;font-weight:700}
+.project-body{padding:22px}
+.eyebrow{color:var(--gold);font-weight:800;text-transform:uppercase;letter-spacing:1.5px;font-size:11px}
+.project-body h3{font-size:19px;line-height:1.25;margin:7px 0 9px}
+.project-body p{color:var(--muted);margin:0 0 12px}
+.source{font-size:11px;color:#62717d;text-decoration:none}
+.source:hover{text-decoration:underline}
+.timeline{border-left:2px solid #395267;padding-left:25px;margin-top:25px}
+.titem{margin:0 0 25px;position:relative}
+.titem:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--gold);position:absolute;left:-31px;top:8px}
+.titem h3{margin:0 0 3px}
+.titem span{color:#c7d2da;font-size:13px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{padding:13px 18px;border-radius:12px;text-decoration:none;font-weight:800}
+.btn.gold{background:var(--gold);color:var(--navy)}
+.btn.outline{border:1px solid #63788a;color:white}
+.notice{font-size:12px;color:#76848e;margin-top:22px}
+footer{background:#050f17;color:#8e9ca6;text-align:center;padding:35px 18px;font-size:12px}
+.qr-note{border:1px dashed #b9c4cc;border-radius:16px;padding:18px;margin-top:18px;background:#fafbfc}
+@media(max-width:760px){.profile,.projects{grid-template-columns:1fr}.stat-grid{grid-template-columns:1fr 1fr 1fr}.project-image-wrap{height:240px}}
+</style>
+</head>
+<body>
+<header class="hero">
+<nav><a href="#top">OMSI ALUMINIUM</a><a href="#projects">PROJECTS</a></nav>
+<div class="hero-inner" id="top">
+<div class="brand">OMSI ALUMINIUM · DIGITAL LEGACY</div>
+<div class="kicker">Engineering Excellence</div>
+<h1>Mohamed Mansour</h1>
+<div class="hero-title">Aluminum &amp; Façade Systems Expert</div>
+<div class="badges">
+<span class="badge">Regional Manager @ OMSI Group</span>
+<span class="badge">Building Envelope Solutions Expert</span>
+<span class="badge">Aluminum Automation Systems Expert</span>
+</div>
+</div>
+</header>
+
+<section class="section">
+<div class="wrap">
+<div class="profile">
+<div class="card">
+<h2>The Journey</h2>
+<p class="section-intro">A professional journey shaped by aluminum façade systems, building-envelope solutions, project delivery, site leadership and stakeholder coordination.</p>
+<p>From site engineering to site management and project management, Mohamed Mansour's profile reflects a career built around execution, coordination and the delivery of complex architectural envelope scopes.</p>
+<div class="cta"><a class="btn gold" href="https://www.linkedin.com/in/mohamed-aluminum-façade-systems-expert" target="_blank" rel="noopener">View LinkedIn Profile</a></div>
+</div>
+<div class="card">
+<h2>Expertise</h2>
+<div class="skill-list"><span class="skill">Aluminum Facades</span><span class="skill">Curtain Walls</span><span class="skill">Building Envelope Solutions</span><span class="skill">Stakeholder Management</span><span class="skill">Project Management</span><span class="skill">Handover Management</span><span class="skill">Aluminum Automation Systems</span></div>
+<div class="stat-grid">
+<div class="stat"><b>10+</b><span>Years of professional experience*</span></div>
+<div class="stat"><b>10</b><span>Projects shown in this digital legacy</span></div>
+<div class="stat"><b>3</b><span>Leadership / management roles shown</span></div>
+</div>
+<p class="notice">*Experience figure is presented as a design placeholder and should be confirmed before final publication.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section dark" id="projects">
+<div class="wrap">
+<h2>Selected Projects</h2>
+<p class="section-intro">A visual record of selected projects appearing on the provided professional profile screenshots.</p>
+<div class="projects">
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="https://static.wixstatic.com/media/e32222_6430876a95f447fc94e531375ad61efa~mv2.jpg/v1/crop/x_0%2Cy_0%2Cw_1707%2Ch_1067/fill/w_981%2Ch_613%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_auto/Page-28-Image-18.jpg" alt="IL – MOUNT GALALA PROJECT" loading="lazy">
+        <div class="project-overlay"><span>2021 – 2023</span></div>
+      </div>
+      <div class="project-body">
+        <div class="eyebrow">Site Engineer</div>
+        <h3>IL – MOUNT GALALA PROJECT</h3>
+        <p>IL Monte Galala, Ain Sokhna — project imagery</p>
+        <a class="source" href="https://www.egyptrealestatehub.co.uk/house-hotel-residence-monte-galala" target="_blank" rel="noopener">Image / project source · Egypt Real Estate Hub</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="https://egyproperty-eg.com/wp-content/uploads/2022/08/2231942-fb88eo.jpg" alt="UP TOWN CAIRO" loading="lazy">
+        <div class="project-overlay"><span>2021 – 2023</span></div>
+      </div>
+      <div class="project-body">
+        <div class="eyebrow">Site Engineer</div>
+        <h3>UP TOWN CAIRO</h3>
+        <p>Uptown Cairo — project imagery</p>
+        <a class="source" href="https://egyproperty-eg.com/property/uptown-cairo/" target="_blank" rel="noopener">Image / project source · EgyProperty</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="https://invest-gate.me/wp-content/uploads/2019/09/New-Alamein-Palace-Constructions.jpg" alt="MOHAMED BIN ZAYED ROYAL PALACE PROJECT" loading="lazy">
+        <div class="project-overlay"><span>2022 – 2023</span></div>
+      </div>
+      <div class="project-body">
+        <div class="eyebrow">Project Manager</div>
+        <h3>MOHAMED BIN ZAYED ROYAL PALACE PROJECT</h3>
+        <p>New Alamein presidential palace construction — project imagery</p>
+        <a class="source" href="https://invest-gate.me/features/tour-around-worlds-most-splendid-presidential-palaces/" target="_blank" rel="noopener">Image / project source · Invest-Gate</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="https://assets.cairo360.com/app/uploads/2025/05/04/490379095_4366393696979449_2701839957392190747_n-1024x576.jpg" alt="DOOM / ADLY MANSOUR HUB PROJECT" loading="lazy">
+        <div class="project-overlay"><span>2022</span></div>
+      </div>
+      <div class="project-body">
+        <div class="eyebrow">Site Manager</div>
+        <h3>DOOM / ADLY MANSOUR HUB PROJECT</h3>
+        <p>Adly Mansour Central Interchange — project imagery</p>
+        <a class="source" href="https://www.cairo360.com/ar/article/الحياة-في-كايرو/عدلى-منصور-من-فوق-جولة-في-أضخم-محطة-نقل/" target="_blank" rel="noopener">Image / project source · Cairo 360</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="https://img.soutalomma.com/ArticleImgs/2025/1/11/1125867-IMG_6941.jpeg" alt="R5 NEW ADMINISTRATIVE CAPITAL PROJECT" loading="lazy">
+        <div class="project-overlay"><span>2022 – 2023</span></div>
+      </div>
+      <div class="project-body">
+        <div class="eyebrow">Project</div>
+        <h3>R5 NEW ADMINISTRATIVE CAPITAL PROJECT</h3>
+        <p>R5 / New Administrative Capital — project imagery</p>
+        <a class="source" href="https://www.soutalomma.com/Article/1149168" target="_blank" rel="noopener">Image / project source · Sout Al-Omma</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="https://cityedgedevelopments.com/cityedgedevelopmentswordpress/wp-content/uploads/2025/09/Maz-Boulevard-1.png" alt="MAZARINE COMPOUND PROJECT" loading="lazy">
+        <div class="project-overlay"><span>2023 – 2025</span></div>
+      </div>
+      <div class="project-body">
+        <div class="eyebrow">Project Manager</div>
+        <h3>MAZARINE COMPOUND PROJECT</h3>
+        <p>Mazarine / New Alamein — project imagery</p>
+        <a class="source" href="https://cityedgedevelopments.com/project/mazarine-boulevard/" target="_blank" rel="noopener">Image / project source · City Edge Developments</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="https://www.hospitalitynet.org/og/image?id=0cf5b11d-03a3-4f5d-ab35-0c5c69711100&amp;key=social" alt="VIDA HOTEL – MARASSI PROJECT" loading="lazy">
+        <div class="project-overlay"><span>2023 – 2024</span></div>
+      </div>
+      <div class="project-body">
+        <div class="eyebrow">Project Manager</div>
+        <h3>VIDA HOTEL – MARASSI PROJECT</h3>
+        <p>Vida Marina Marassi — project imagery</p>
+        <a class="source" href="https://www.hospitalitynet.org/announcement/41011447/emaars-vida-hotels-opens-new-resort-in-north-egypt" target="_blank" rel="noopener">Image / project source · Hospitality Net</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="https://img-3.aqarmap.com.eg/new-aqarmap-media/slider-photo-watermarked-logo-large/2407/668bfdbb2aa9a810761932.jpg/2108/610bfb9b188ec903514766.jpg" alt="JUNE VILLAGE PROJECT" loading="lazy">
+        <div class="project-overlay"><span>2025 – 2026</span></div>
+      </div>
+      <div class="project-body">
+        <div class="eyebrow">Project Manager</div>
+        <h3>JUNE VILLAGE PROJECT</h3>
+        <p>June Village — project imagery</p>
+        <a class="source" href="https://aqarmap.com.eg/en/listing/4699479-for-sale-north-coast-resorts-jwn-fyldj-swdyk/" target="_blank" rel="noopener">Image / project source · Aqarmap</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="https://static.shared.propertyfinder.eg/media/images/listing/ANM9R160CDX1WS42RV7J8A2AT0/108eb9f0-a802-4391-a91c-7ca6df1bfd8f/668x452.webp" alt="RAMLA VILLAGE PROJECT" loading="lazy">
+        <div class="project-overlay"><span>2026 – Present</span></div>
+      </div>
+      <div class="project-body">
+        <div class="eyebrow">Project Manager</div>
+        <h3>RAMLA VILLAGE PROJECT</h3>
+        <p>Ramla, Ras El Hekma — project imagery</p>
+        <a class="source" href="https://www.propertyfinder.eg/en/plp/buy/chalet-for-sale-north-coast-ras-al-hekma-ramla-62167389.html" target="_blank" rel="noopener">Image / project source · Property Finder Egypt</a>
+      </div>
+    </article>
+    </div>
+<p class="notice">Project imagery is sourced from publicly accessible web pages and is used here as visual project context. It does not claim that the pictured façade element was specifically executed by Mohamed Mansour. Confirm image licensing/permissions before commercial publication on the final company website or award.</p>
+</div>
+</section>
+
+<section class="section">
+<div class="wrap">
+<div class="card">
+<h2>Career Highlights</h2>
+<div class="timeline">
+<div class="titem"><h3>Regional Management</h3><span>OMSI Group · Current profile position</span></div>
+<div class="titem"><h3>Project &amp; Site Leadership</h3><span>Multiple major projects across Egypt</span></div>
+<div class="titem"><h3>Building Envelope Specialization</h3><span>Aluminum façades, curtain walls and related systems</span></div>
+<div class="titem"><h3>Stakeholder &amp; Handover Coordination</h3><span>Delivery-focused project responsibilities</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section dark">
+<div class="wrap">
+<div class="card" style="background:#0d263a;color:white;border:1px solid #31495a">
+<h2>A Legacy That Stays</h2>
+<p class="section-intro" style="color:#cbd6dd">The physical award is the memory. The QR code is the living story — a page that can continue to evolve as the professional legacy grows.</p>
+<div class="qr-note">
+<b>Final QR destination:</b><br>https://legacy.omsi.com/mohamed-mansour<br><br>
+Before engraving/printing, host this page at that permanent URL and then use the generated final QR code from the project package.
+</div>
+<div class="cta"><a class="btn gold" href="https://www.linkedin.com/in/mohamed-aluminum-façade-systems-expert" target="_blank" rel="noopener">LinkedIn</a></div>
+</div>
+</div>
+</section>
+
+<footer>Mohamed Mansour · OMSI Aluminium · Digital Legacy</footer>
+</body>
+</html>
